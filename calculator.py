@@ -5,7 +5,7 @@ while True:
     operation = input("\nChoose an operation (+, -, *, /) or q to quit: ").strip()
 
     if operation.lower() == "q":
-        print("Thanks for using the calculator!")
+        print("Simple, right? Thank you for using it!")
         break
 
     if operation not in ("+", "-", "*", "/"):
